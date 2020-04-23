@@ -1,0 +1,22 @@
+{
+    "name": "tester-for-eslint-plugin",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Package for testing local eslint plugins.",
+    "main": "src/index.ts",
+    "scripts": {
+        "test": "",
+        "format": "prettier *.json .*.json **/*.ts **/*.json --write",
+        "lint": "eslint src/index.ts"
+    },
+    "keywords": [],
+    "author": "electrovir",
+    "license": "MIT",
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^2.29.0",
+        "@typescript-eslint/parser": "^2.29.0",
+        "eslint": "^6.8.0",
+        "prettier": "^2.0.5",
+        "typescript": "^3.8.3"
+    }
+}
