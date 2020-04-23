@@ -1,6 +1,6 @@
 {
     "name": "tester-for-eslint-plugin",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "private": true,
     "description": "Package for testing local eslint plugins.",
     "main": "src/index.ts",

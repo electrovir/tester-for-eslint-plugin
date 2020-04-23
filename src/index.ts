@@ -1,5 +1,5 @@
 function helloThere() {
-    const response = 'General Kenobi';
+    var response = 'General Kenobi';
     console.log(response);
 }
 
